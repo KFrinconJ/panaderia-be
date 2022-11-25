@@ -20,6 +20,11 @@ def page_not_found(error):
     return '<h1>Página no encontrada</h1>'
 
 
+@app.route('/')
+def index():
+    return "<h1>Corriendo servidor Flask</h1>"
+
+
 if __name__ == '__main__':
     # Uso de la configuración externa creada en el objeto config
     app.config.from_object(config['development'])

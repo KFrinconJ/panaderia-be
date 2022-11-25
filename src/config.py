@@ -7,10 +7,10 @@ class DevelopmentConfig():
     DEBUG = True
 
     #Datos de la base de datos
-    MYSQL_HOST = 'localhost'
-    MYSQL_USER = 'root'
-    MYSQL_PASSWORD = ''
-    MYSQL_DB = 'marcellareal'
+    MYSQL_HOST = 'sql10.freemysqlhosting.net'
+    MYSQL_USER = 'sql10580635'
+    MYSQL_PASSWORD = 'ThfKgwHI3E'
+    MYSQL_DB = 'sql10580635'
 
 config = {
     'development':DevelopmentConfig

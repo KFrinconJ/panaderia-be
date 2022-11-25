@@ -3,7 +3,7 @@
 from __main__ import *
 from helpers.helpers import *
 
-clientesSQL = SqlUtilities("clientes", "marcellareal")
+clientesSQL = SqlUtilities("clientes", "sql10580635")
 
 
 @app.route('/clientes', methods=['GET'])
